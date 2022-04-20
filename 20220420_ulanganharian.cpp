@@ -26,14 +26,14 @@ int main(){
     
     cout<<"Masukkan Nilai UTS = ";cin>>uts;
     if (uts > 100){
-        cout<<"Nilai tidak bisa melebihi 100";
+        cout<<"Nilai tidak bisa melebihi 100"<<endl;
         cout<<"Ulangi kembali program";
         return 0;
     }
     
     cout<<"Masukkan Nilai UAS = ";cin>>uas;
     if (uas > 100){
-        cout<<"Nilai tidak bisa melebihi 100";
+        cout<<"Nilai tidak bisa melebihi 100"<<endl;
         cout<<"Ulangi kembali program";
         return 0;
     }
